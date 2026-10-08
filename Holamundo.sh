@@ -17,7 +17,21 @@ if test $edad -eq 14 ; then
 	echo "¡activa CAM!"
 	echo "¡activa CAM!"
 	sleep 2
+elif test $edad -eq 18 ; then
+	echo "espera..."
+	sleep 1
+	echo "¿18?"
+	sleep 1
+	echo "¡Desactiva CAM!"
+	echo "¡Desactiva CAM!"	
+	echo "¡Desactiva CAM!"	
+	echo "¡Desactiva CAM!"	
+	echo "¡Desactiva CAM!"	
+
+	sleep 2
 
 fi
+
+
 
 
